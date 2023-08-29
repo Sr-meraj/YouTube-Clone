@@ -16,7 +16,6 @@ function VideoDetails() {
 
   useEffect(()=>{
     document.getElementById('root').classList.add('custom-h');
-
     fetchVideoDetails()
     fetchVideoRelatedContent()
   },[id])
